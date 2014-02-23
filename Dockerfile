@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM FROM phusion/baseimage:0.9.6
+FROM phusion/baseimage:0.9.6
 
 # Install Nginx.
 RUN apt-get install -y software-properties-common
